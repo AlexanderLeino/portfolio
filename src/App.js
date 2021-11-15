@@ -1,10 +1,17 @@
 
-import './App.css';
 import "bootstrap/dist/css/bootstrap.css"
+import './App.css';
+import Navbar from "./components/Navbar"
+import Aboutme from './components/Aboutme'
 
 function App() {
   return (
-    <h2>Hello World</h2>
+  <>
+    <Navbar />
+    <Aboutme/>
+  </>
+
+
   );
 }
 
