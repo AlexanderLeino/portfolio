@@ -21,6 +21,10 @@ const Skills = () => {
         <h6 className='express-icon'>MySQL</h6>
 
         </div>
+        <h1>Trilogy Bootcamp Certificate Recipient </h1>
+        <h1>Achieved Bachelors in Finance from Western Michigan University </h1>
+        <h1>i-Lead Award Recipient PNC 2021 </h1>
+        
     </div>
     )
 }
