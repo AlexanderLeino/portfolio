@@ -123,14 +123,42 @@ html{
   border-radius: 50%;
 }
 
+.tech-container {
+  margin-top: -5rem;
+
+}
+#skills-title {
+  text-align: left;
+  font-size: 6rem;
+  font-weight: bolder;
+  color: var(--pink-little-red);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 
 .js {
   transform: scale(4.5);
 }
+.skill-logos {
+ text-align: center;
+ margin-left: 8rem;
+ margin-bottom: 2rem;
+}
 
+.skills-row2{
+  margin-left: 3rem;
+  margin-bottom: -1rem
+
+}
 .express-icon {
   font-weight: bolder;
   font-size: 2rem;
+}
+
+.accolades-title {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: var(--pink-little-red);
+
 }
 @media (max-width: 810px){
   #aboutMe-title {
@@ -149,12 +177,18 @@ html{
   border: var(--purple) 7px solid;
   padding: 10px;
   border-radius: 25px;
+  margin-top: 1.5rem;
   
   
+}
+
+.wrapper {
+ 
 }
 .projectCard {
   border: var(--purple) 4px solid;
   height: auto;
+  border-radius: 25px;
 }
 
 .project-title {
@@ -183,7 +217,37 @@ img {
   width: 100%;
   margin-right: 5px;
   margin-bottom: 5px;
+  border-radius: 25px;
 }
+
+img{
+  border-radius: 25px;
+}
+
+ button a {
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover{
+  text-decoration: none;
+  color:white;
+  font-weight: bolder;
+}
+
+
+
+li, .accolades {
+ list-style: none;
+ text-align: center;
+ font-weight: bolder;
+ line-height: 4rem;
+ font-size: 2rem;
+ 
+}
+
+
+
 @media (max-width: 570px) {
   .navBar  h2 {
     font-size: 10vw;
