@@ -8,6 +8,7 @@ const ProjectContainer = () => {
         <div className= 'container-fluid mt-2 projects-container'>
             <h3 className='project-title'>Netflix and Grill</h3>
             <div className= 'projectCard container d-flex justify-content-end'>
+                
                     <img src = '../assets/net-grill-screencap.png' alt=''></img>
                     <div className='container'>
                 <div className='project-description'>Description</div>
@@ -22,7 +23,9 @@ const ProjectContainer = () => {
                 <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://alexanderleino.github.io/Netflix-and-Grill/'>Deploy App</a></button>
                 <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/AlexanderLeino/Netflix-and-Grill'>View Source Code</a></button>
                 </div>
-                    </div>
+            
+                </div>
+
                 </div>
                 </div>
                

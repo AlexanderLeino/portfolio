@@ -208,7 +208,7 @@ form {
 }
 
 .accolades-container {
-  border: var(--magenta) 5px solid;
+  border: var(--purple) 5px solid;
   border-radius: 25px;
   position: relative;
   bottom: 10rem;
@@ -229,10 +229,13 @@ form {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   position: relative;
   top: -2rem;
+  margin: -1rem;
 }
 img {
-  width: 600px;
-  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+  
   
 }
 
@@ -257,6 +260,7 @@ img{
   border-radius: 25px;
   position: relative;
   overflow: auto;
+  width: 100%;
 }
 
 button a {
@@ -356,9 +360,9 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
  
 }
-/* @media (max-width: 1045px){
+@media (max-width: 1051px){
   #aboutMe-Paragraph{
-    font-size: 1.15rem;
+    font-size: 1.45rem;
     font-weight: bolder;
   }
   #aboutMe-title {
@@ -368,14 +372,15 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   
   #skills-title {
     position: relative;
-    left: 3rem;
-    bottom: 7rem;
+    left: 10rem;
+    bottom: 5.5rem;
     font-size: 2.5rem;
   }
   
   #skills-container {
-    left: -6rem;
-    top:-7rem;
+    
+    width: 89vw;
+    top: -5rem;
   }
   .express-icon{
     font-size: 1rem;
@@ -389,7 +394,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   .accolades-title{
     font-size: 2.5rem;
-    top: -2rem;
 
   }
   .accolades-container {
@@ -403,12 +407,45 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   
 }
+
 @media (max-width: 810px){
   #aboutMe-title {
-    line-height: 5.25rem;
-    font-size: 5rem;
+    line-height: 3vh;
+    font-size: 4.5vw;
+    
   }
 
+  #aboutMe-Paragraph {
+    font-size: .9rem;
+    
+    font-weight: bolder;
+  }
+
+  #submitBtn {
+    width: 17vw;
+  }
+
+  .projects-title-text {
+    font-size: 2.5rem;
+  }
+
+  .project-title{
+    font-size: 2rem;
+  }
+  .onlyPlants-title {
+    font-size: 2rem;
+  }
+  .project-description{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .lets-work-together{
+    font-size: 3rem;
+  }
+  .text-labels {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 570px) {
@@ -423,4 +460,14 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 
  
-} */
+}
+
+@media (max-width: 428px) {
+  .insideCircle {
+    display: none;
+  }
+  .mainCircle {
+    display: none;
+    
+  }
+}
