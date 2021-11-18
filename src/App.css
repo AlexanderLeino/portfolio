@@ -17,13 +17,15 @@
   color: white;
   
 }
-/*------------------NAV LINK -------------*/
+
 html{
   background-color: var(--main-bg-color) !important;
  
 }
 
-
+h1 {
+  text-align: center;
+}
 .navButtons {
   background-color: rgba(117, 22, 22, 0.527);
   border: none;
@@ -60,13 +62,13 @@ html{
 
 
 .navBar h2 {
-  font-size: 7vw;
+  font-size: 4.5vw;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-weight: bolder;
 }
 #aboutMe-title {
   text-align: center;
-  font-size: 7rem;
+  font-size: 4rem;
   font-weight: bolder;
   color: var(--pink-little-red);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -74,6 +76,7 @@ html{
 #aboutMe-Paragraph {
   color: var(white);
   font-size: 1.75rem;
+  font-weight: bold;
 }
 .mainCircle {
   height: 37rem;
@@ -93,9 +96,8 @@ html{
   width: 7rem;
   background-color: var(--magenta);
   border-radius: 50%;
-  position: absolute;
-  right: 16rem;
-  top: 45.5625rem;
+  position: relative;
+  left: 30rem;
 }
 
 .insideTrailingCircle1{
@@ -111,8 +113,9 @@ html{
   border-radius: 50%;
   color: #000;
   background-color: var(--magenta);
-  position: absolute;
-  left: 104rem;
+  position: relative;
+  left: 38rem;
+ 
 
 }
 
@@ -129,14 +132,17 @@ html{
 }
 #skills-title {
   text-align: left;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: bolder;
   color: var(--pink-little-red);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  position: relative;
+  left: 7rem;
+  bottom: 15rem;
 }
 
 .js {
-  transform: scale(4.5);
+  transform: scale(3.5);
 }
 .skill-logos {
  text-align: center;
@@ -156,21 +162,36 @@ html{
 
 .accolades-title {
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--pink-little-red);
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  position: relative;
+  right: 2rem;
+  top: -11rem;
+  margin-top: 4rem;
 
 }
-@media (max-width: 810px){
-  #aboutMe-title {
-    line-height: 5.25rem;
-    font-size: 5rem;
-  }
-  .TrailingCircle2{
-    position: absolute; 
-    left: 21rem;
-    top: 51rem;
-  }
-  
+
+.text-labels {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#submitBtn {
+  width: 10vw;
+}
+
+#submitBtn:hover{
+  text-decoration: none;
+  color:white;
+  font-weight: bolder;
+}
+
+form {
+  border: var(--purple) 4px solid;
+  border-radius: 25px;
+  position: relative;
 }
 
 #skills-container {
@@ -178,12 +199,19 @@ html{
   padding: 10px;
   border-radius: 25px;
   margin-top: 1.5rem;
+  position: relative;
+  bottom: 13rem;
+  left: -16rem;
+  
   
   
 }
 
-.wrapper {
- 
+.accolades-container {
+  border: var(--magenta) 5px solid;
+  border-radius: 25px;
+  position: relative;
+  bottom: 10rem;
 }
 .projectCard {
   border: var(--purple) 4px solid;
@@ -194,15 +222,16 @@ html{
 .project-title {
   text-align: center;
   font-weight: bolder;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: white;
   margin-top: .5rem;
   margin-bottom: 1.5rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 img {
-    width: 600px;
-    padding: 1rem;
-    
+  width: 600px;
+  padding: 1rem;
+  
 }
 
 .project-description {
@@ -210,7 +239,9 @@ img {
   font-size: 3rem;
   color: var(--pink-little-red);
 }
-
+.project-description-paragraph {
+  font-weight: bold;
+}
 .projectBtn {
   background-color: var(--magenta);
   border: var(--purple) solid 5px;
@@ -222,9 +253,11 @@ img {
 
 img{
   border-radius: 25px;
+  position: relative;
+  overflow: auto;
 }
 
- button a {
+button a {
   text-decoration: none;
   color: white;
 }
@@ -238,21 +271,136 @@ button a:hover{
 
 
 li, .accolades {
- list-style: none;
- text-align: center;
- font-weight: bolder;
- line-height: 4rem;
- font-size: 2rem;
- 
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  line-height: 4rem;
+  font-size: 2rem;
+  
+}
+.projects-title-text {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: var(--pink-little-red);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  position: relative;
+  bottom: 7rem;
+  
 }
 
+.projects-container {
+  position: relative;
+  bottom: 5rem;
 
+}
+
+.lets-work-together {
+  font-size: 4rem;
+font-weight: bolder;
+color: var(--pink-little-red);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+position: relative;
+
+}
+
+/* -------------------------------------------------MEDIA QUERIES BELOW----------------------------------------------------------------------------------- */
+
+@media (max-width: 1116px) {
+  #aboutMe-Paragraph{
+    font-size: 1.5rem;
+  }
+  #skills-title {
+    bottom: 7rem;
+  }
+  #skills-container {
+    top: -7rem;
+    left: -2rem;
+  }
+  .express-icon {
+    font-size: 1rem;
+  }
+  .accolades-title {
+    top: -9rem;
+  }
+  .projects-title-text {
+    top: -9rem;
+  }
+  .project-title {
+    margin-top: 0rem;
+    position: relative;
+    bottom: 2rem;
+  }
+  .onlyPlants-title {
+    text-align: center;
+font-weight: bolder;
+font-size: 3.5rem;
+color: white;
+margin-top: .5rem;
+margin-bottom: 1.5rem;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+ 
+}
+@media (max-width: 1045px){
+  #aboutMe-Paragraph{
+    font-size: 1.15rem;
+    font-weight: bolder;
+  }
+  #aboutMe-title {
+    line-height: 4rem;
+    font-size: 2.5rem;
+  }
+  
+  #skills-title {
+    position: relative;
+    left: 3rem;
+    bottom: 7rem;
+    font-size: 2.5rem;
+  }
+  
+  #skills-container {
+    left: -6rem;
+    top:-7rem;
+  }
+  .express-icon{
+    font-size: 1rem;
+  }
+  .skill-logos {
+    text-align: none;
+    
+  }
+  .js{
+    transform: scale(2.75);
+  }
+  .accolades-title{
+    font-size: 2.5rem;
+    top: -2rem;
+
+  }
+  .accolades-container {
+    left: -1rem;
+  }
+  li, .accolades {
+    font-size: 1.15rem;
+  }
+  .navButtons {
+    font-size: 1.15rem;
+  }
+  
+}
+@media (max-width: 810px){
+  #aboutMe-title {
+    line-height: 5.25rem;
+    font-size: 5rem;
+  }
+
+}
 
 @media (max-width: 570px) {
   .navBar  h2 {
     font-size: 10vw;
   }
-
+  
   .navButtons {
     font-size: 1rem;
     height: fit-content;
