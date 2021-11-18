@@ -52,7 +52,7 @@ const ProjectContainer = () => {
             <h3 className='onlyPlants-title'>Only Plants</h3>
             <div className= 'projectCard container d-flex justify-content-end'>
 
-                    <img src = 'Assets\only-plants.PNG' alt=''></img>
+                    <img src = '\Assets\only-plants.PNG' alt=''></img>
                     <div className='container'>
                 <div className='project-description'>Description</div>
                 <p className= 'project-description-paragraph'>This was my bootcamps teams 2nd project where the focus was creating an app where individuals can create posts, create an account and sign in using the npm bycrpt to authinicate the user. </p>
