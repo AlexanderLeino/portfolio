@@ -2,7 +2,7 @@ import React from 'react'
 
 const contactForm = () => {
     return (
-        <div>
+        <div className='outside-form-container'>
         <h1 className= 'lets-work-together'>Lets Work Together!</h1>
         <form className= 'container mt-2 form-container'>
             <div className="mb-3">
