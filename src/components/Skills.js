@@ -48,10 +48,10 @@ const Skills = () => {
         </div>
 
         </div>
-        <ul className= 'mt-4'> 
-            <li><h1 className= 'accolades-title' >Recent Accolades </h1></li>
-            <li><h1 className= 'accolades' >Trilogy Bootcamp Certificate Recipient </h1></li>
-            <li><h1  className= 'accolades' >Achieved Bachelors in Finance from Western Michigan University </h1></li>
+            <h1 className= 'accolades-title' >Recent Accolades </h1>
+        <ul className= 'mt-4 accolades-container container d-flex justifty-content-evenly flex-column '> 
+            <li><h1 className= 'accolades' >Trilogy Bootcamp Certificate Recipient 22' </h1></li>
+            <li><h1  className= 'accolades' >Achieved Bachelors in Finance from Western Michigan University 21' </h1></li>
             <li><h1  className= 'accolades' >i-Lead Award Recipient PNC 2021 </h1></li>
         </ul>
 
