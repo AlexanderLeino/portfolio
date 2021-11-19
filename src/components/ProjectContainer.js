@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import netflixGrillImg from '../../public/Assets/net-grill-screencap.PNG'
 
 const ProjectContainer = () => {
     return (
@@ -9,7 +10,7 @@ const ProjectContainer = () => {
             <h3 className='project-title'>Netflix and Grill</h3>
             <div className= 'projectCard container d-flex justify-content-end'>
                 
-                    <img src = '\Assets\net-grill-screencap.PNG' alt=''></img>
+                    <img src = {netflixGrillImg} alt=''></img>
                     <div className='container'>
                 <div className='project-description'>Description</div>
                 <p className= 'project-description-paragraph'>The goal of the project was to solve two problems that every couple have on a regular basis. Those being what are we going to eat? What should we watch on TV tonight? With this app we take in a few responses from the end user and based on their responses to the three questions we generate a movie based on their prefernce when it comes to film genre. As well as a meal that meets their minimum servings based on how many people the user imputs. </p>
