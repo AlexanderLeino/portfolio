@@ -1,0 +1,20 @@
+.lets-work-together {
+    font-size: 4rem;
+  font-weight: bolder;
+  color: var(--pink-little-red);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  position: relative;
+  
+  }
+  
+  .outside-form-container {
+    margin-top: 5rem;
+  }
+  
+  
+form {
+    border: var(--purple) 4px solid;
+    border-radius: 25px;
+    position: relative;
+  }
+  

@@ -1,0 +1,57 @@
+
+li, .accolades {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 4rem;
+    font-size: 2rem;
+    
+  }
+
+  #skills-container {
+    border: var(--purple) 7px solid;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+    
+    
+  }
+  
+  .accolades-container {
+    border: var(--purple) 5px solid;
+    border-radius: 25px;
+  }
+
+ 
+  #skills-title {
+    text-align: left;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--pink-little-red);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .js {
+    transform: scale(3.5);
+  }
+  .skill-logos {
+   text-align: center;
+  }
+  
+  .skills-row2{
+    margin-left: 3rem;
+    margin-bottom: -1rem
+  
+  }
+  .express-icon {
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  
+  .accolades-title {
+    font-weight: bolder;
+    font-size: 4rem;
+    color: var(--pink-little-red);
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
