@@ -4,30 +4,30 @@ import SkillsCss from './Skills.css'
 
 const Skills = () => {
     return (
-    <div className= 'container-fluid tech-container justify-content-center d-flex flex-column'>
+    <>
         <h2 id='skills-title'>Skills and Technologies</h2>
         
-        <div id='skills-container'  className= 'container d-flex justify-content-evenly align-items-evenly flex-column flex-wrap'>
+        <div id='skills-container'  className= 'container'>
             
-            <div className= 'row skill-logos'>
-                <div className='col-2'>
-                <FontAwesomeIcon className = 'js mt-3' icon={['fab', 'html5']} />
+            <div className= 'row'>
+                <div className='col-2 tech-item'>
+                <FontAwesomeIcon className = 'mt-3 tech-logo' icon={['fab', 'html5']} />
                 </div>
-                <div className='col-2 '>  
-                <FontAwesomeIcon className = 'js mt-3' icon={['fab', 'js-square']} />
+                <div className='col-2 tech-item'>  
+                <FontAwesomeIcon className = ' mt-3 tech-logo' icon={['fab', 'js-square']} />
                 </div>
-                <div className='col-2 '>  
-                <FontAwesomeIcon className = 'js mt-3' icon={['fab', 'node']} />
+                <div className='col-2 tech-item'>  
+                <FontAwesomeIcon className = 'mt-3 tech-logo' icon={['fab', 'node']} />
                 </div>
-                <div className='col-2 '> 
-                <FontAwesomeIcon className = 'js mt-3' icon={['fab', 'react']} />
+                <div className='col-2 tech-item'> 
+                <FontAwesomeIcon className = 'mt-3 tech-logo' icon={['fab', 'react']} />
                 </div>
-                <div className='col-2'>
-                <FontAwesomeIcon className = 'js mt-3' icon={['fab', 'css3-alt']} />
+                <div className='col-2 tech-item'>
+                <FontAwesomeIcon className = 'mt-3 tech-logo' icon={['fab', 'css3-alt']} />
                 </div>
-
         </div>
-        <div className= 'row skills-row2'>
+
+        <div className= 'row'>
         <div className='col-2'>
             <h6 className='express-icon'>Express.js</h6>
         </div>
@@ -55,8 +55,7 @@ const Skills = () => {
             <li><h1  className= 'accolades' >Achieved Bachelors in Finance from Western Michigan University 21' </h1></li>
             <li><h1  className= 'accolades' >i-Lead Award Recipient PNC 2021 </h1></li>
         </ul>
-
-    </div>
+    </>
     )
 }
 

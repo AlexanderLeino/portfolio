@@ -4,13 +4,13 @@
     font-size: 1.75rem;
     font-weight: bold;
     text-align: right;
-    width: 50%;
+    width: 95%;
 
   }
   .title {
     text-align: left;
   }
-  .mainCircle {
+  /* .mainCircle {
     height: 37rem;
     width: 42rem;
     background-color: var(--magenta);
@@ -56,4 +56,4 @@
     width: 5rem;
     background-color: var(--purple-pink);
     border-radius: 50%;
-  }
+  } */

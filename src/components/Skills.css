@@ -12,9 +12,7 @@ li, .accolades {
     border: var(--purple) 7px solid;
     padding: 10px;
     border-radius: 25px;
-    margin-top: 1.5rem;
-    
-    
+    margin-top: 1.5rem; 
   }
   
   .accolades-container {
@@ -31,18 +29,14 @@ li, .accolades {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   
-  .js {
-    transform: scale(3.5);
-  }
-  .skill-logos {
-   text-align: center;
-  }
-  
-  .skills-row2{
-    margin-left: 3rem;
-    margin-bottom: -1rem
-  
-  }
+.tech-logo {
+  transform: scale(3.5);
+}
+
+.tech-item{
+  text-align: center;
+}
+ 
   .express-icon {
     font-weight: bolder;
     font-size: 2rem;

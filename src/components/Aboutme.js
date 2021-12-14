@@ -10,7 +10,7 @@ const Aboutme = () => {
             <div className="title row ms-2">About Me</div>
             </div>
             <div className="row">
-                <p  className= 'col-12 mt-3'id='aboutMe-Paragraph'>Hello my name is Alexander Leino I use he/him pronouns. I recently graudated from Trilogy's Michigan State University's Full Stack coding bootcamp. I currently live in Michigan and I am willing to relocate, but would prefer a remote role over relocating. I love learning about new coding languages and tinkering on my own mini projects! </p>
+                <p  className= ' col-12 mt-3'id='aboutMe-Paragraph'>Hello my name is Alexander Leino I use he/him pronouns. I recently graudated from Trilogy's Michigan State University's Full Stack coding bootcamp. I currently live in Michigan and I am willing to relocate, but would prefer a remote role over relocating. I love learning about new coding languages and tinkering on my own mini projects! </p>
             </div>
         </div>
     
