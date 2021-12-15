@@ -3,12 +3,12 @@
   font-weight: bolder;
   color: var(--pink-little-red);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  position: relative;
+  text-align: center;
   
   }
   
   .outside-form-container {
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
   
   
@@ -18,3 +18,14 @@ form {
     position: relative;
   }
   
+
+  #submitBtn {
+    min-width: 15rem;
+    max-width: 15rem;
+  }
+  
+  #submitBtn:hover{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+  }

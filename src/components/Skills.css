@@ -4,7 +4,7 @@ li, .accolades {
     text-align: center;
     font-weight: bold;
     line-height: 4rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
   }
 
@@ -22,7 +22,7 @@ li, .accolades {
 
  
   #skills-title {
-    text-align: left;
+    text-align: center;
     font-size: 4rem;
     font-weight: bolder;
     color: var(--pink-little-red);
@@ -37,10 +37,6 @@ li, .accolades {
   text-align: center;
 }
  
-  .express-icon {
-    font-weight: bolder;
-    font-size: 2rem;
-  }
   
   .accolades-title {
     font-weight: bolder;
@@ -48,4 +44,10 @@ li, .accolades {
     color: var(--pink-little-red);
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .word-logo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
   }

@@ -10,6 +10,17 @@
     width: 100%;
     margin-top: .5rem;
   }
+
+  .navButtons {
+    text-decoration: none;
+    color: white;
+  }
+  
+  button a:hover{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+  }
   
   .name {
     text-align: center;

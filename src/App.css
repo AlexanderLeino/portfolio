@@ -28,16 +28,6 @@ html{
   font-weight: bold;
 }
 
-#submitBtn {
-  width: 10vw;
-}
-
-#submitBtn:hover{
-  text-decoration: none;
-  color:white;
-  font-weight: bolder;
-}
-
 .title {
   text-align: center;
   font-size: 4rem;
@@ -57,7 +47,9 @@ button a:hover{
   font-weight: bolder;
 }
 
-
+img {
+  padding: .5rem;
+}
 
 
 

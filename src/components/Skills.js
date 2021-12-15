@@ -22,29 +22,29 @@ const Skills = () => {
                 <div className='col-2 tech-item'> 
                 <FontAwesomeIcon className = 'mt-3 tech-logo' icon={['fab', 'react']} />
                 </div>
-                <div className='col-2 tech-item'>
+                <div className='col-3 tech-item'>
                 <FontAwesomeIcon className = 'mt-3 tech-logo' icon={['fab', 'css3-alt']} />
                 </div>
         </div>
 
-        <div className= 'row'>
-        <div className='col-2'>
-            <h6 className='express-icon'>Express.js</h6>
+        <div className= 'row mt-4'>
+        <div className='col-lg-2 col-sm-6'>
+            <h6 className='express-icon word-logo'>Express.js</h6>
         </div>
-        <div className='col-2'>
-            <h6 className='express-icon'>jQuery</h6>
+        <div className='col-lg-2 col-sm-6'>
+            <h6 className='express-icon word-logo'>jQuery</h6>
             </div>
-            <div className='col-2'>
-            <h6 className='express-icon'>Command Line</h6>
+            <div className='col-lg-2 col-sm-6'>
+            <h6 className='express-icon word-logo'>Command Line</h6>
             </div>
-            <div className='col-2'>
-            <h6 className='express-icon'>Bootstrap</h6>
+            <div className='col-lg-2 col-sm-6'>
+            <h6 className='express-icon word-logo'>Bootstrap</h6>
             </div>
-            <div className='col-2'>
-            <h6 className='express-icon'>MongoDB</h6>
+            <div className='col-lg-2 col-sm-6'>
+            <h6 className='express-icon word-logo'>MongoDB</h6>
             </div>
-            <div className='col-2'>
-            <h6 className='express-icon'>MySQL</h6>
+            <div className='col-lg-2 col-sm-6'>
+            <h6 className='express-icon word-logo'>MySQL</h6>
             </div>
         </div>
 
