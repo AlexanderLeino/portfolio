@@ -4,7 +4,7 @@ import ContactMeCSS from './ContactMe.css'
 const contactForm = () => {
     return (
         <div className='outside-form-container'>
-        <h1 className= 'lets-work-together'>Lets Work Together!</h1>
+        <h1 className= 'lets-work-together' id='contactMe'>Lets Work Together!</h1>
         <form className= 'container mt-2 form-container'>
             <div className="mb-3">
                 <label for="exampleInputEmail1" className="form-label text-labels">First and Last Name:</label>

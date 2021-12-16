@@ -3,7 +3,6 @@
     background-color: var(--magenta);
     border: var(--purple) solid 5px;
     border: none;
-    font-weight: bolder;
     border-radius: 25px;
     font-size: 1.65rem;
     text-align: center;
@@ -11,17 +10,7 @@
     margin-top: .5rem;
   }
 
-  .navButtons {
-    text-decoration: none;
-    color: white;
-  }
-  
-  button a:hover{
-    text-decoration: none;
-    color:white;
-    font-weight: bolder;
-  }
-  
+
   .name {
     text-align: center;
     overflow: hidden;
@@ -34,5 +23,16 @@
   .navBar h2 {
     font-size: 4.5vw;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: bolder;
+  }
+
+  a button {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a button:hover{
+    text-decoration: none;
+    color:white;
     font-weight: bolder;
   }

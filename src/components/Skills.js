@@ -5,7 +5,7 @@ import SkillsCss from './Skills.css'
 const Skills = () => {
     return (
     <>
-        <h2 id='skills-title'>Skills and Technologies</h2>
+        <h2 className='title'>Skills and Technologies</h2>
         
         <div id='skills-container'  className= 'container'>
             
@@ -49,7 +49,7 @@ const Skills = () => {
         </div>
 
         </div>
-            <h1 className= 'accolades-title' >Recent Accolades </h1>
+            <h1 className= 'title' >Recent Accolades </h1>
         <ul className= 'mt-4 accolades-container container d-flex justifty-content-evenly flex-column '> 
             <li><h1 className= 'accolades' >Trilogy Bootcamp Certificate Recipient 22' </h1></li>
             <li><h1  className= 'accolades' >Achieved Bachelors in Finance from Western Michigan University 21' </h1></li>

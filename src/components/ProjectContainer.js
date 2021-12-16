@@ -7,7 +7,7 @@ const ProjectContainer = () => {
     return (
     <div className= 'container-fluid flex-column justify-content-evenly mt-4'>
         <div className="row">
-            <h1 className= 'projects-title-text'>Projects</h1>
+            <h1 className= 'title' id="projects">Projects</h1>
             <h3 className='project-title'>Netflix and Grill</h3>
         </div>
         <div className= 'projectCard container d-flex'>
@@ -41,8 +41,8 @@ const ProjectContainer = () => {
         </div>
     </div>
             <div className="row mt-4">
-                <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://alexanderleino.github.io/blackjack-game/'>Deploy App</a></button>
-                <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/AlexanderLeino/blackjack-game'>View Source Code</a></button>
+            <a target= '_blank' rel='noreferrer' projectBtn href= 'https://alexanderleino.github.io/Netflix-and-Grill/'><button className='projectBtn'>Deploy App</button></a>
+            <a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/AlexanderLeino/Netflix-and-Grill'><button className='projectBtn'>View Source Code</button></a>
             </div>
                 </div>
                     </div>
@@ -83,8 +83,8 @@ const ProjectContainer = () => {
         </div>
     </div>
             <div className="row mt-4">
-                <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://alexanderleino.github.io/blackjack-game/'>Deploy App</a></button>
-                <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/AlexanderLeino/blackjack-game'>View Source Code</a></button>
+            <a target= '_blank' rel='noreferrer' projectBtn href= 'https://alexanderleino.github.io/blackjack-game/'><button className='projectBtn'>Deploy App</button></a>
+            <a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/AlexanderLeino/blackjack-game'><button className='projectBtn'>View Source Code</button></a>
             </div>
                 </div>
                     </div>
@@ -92,7 +92,7 @@ const ProjectContainer = () => {
 
     
                 <h3 className='project-title'>Only Plants</h3>
-                <div className= 'projectCard container d-flex mt-5'>
+                <div className= 'projectCard container d-flex'>
         <div className="row">
             <div className="col-lg-6">
                 <img src = '\Assets\Only-plants.png' alt=''></img>
@@ -142,8 +142,8 @@ const ProjectContainer = () => {
         </div>
     </div>
             <div className="row mt-4">
-                <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://alexanderleino.github.io/blackjack-game/'>Deploy App</a></button>
-                <button className='projectBtn'><a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/AlexanderLeino/blackjack-game'>View Source Code</a></button>
+            <a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/sarahmaskill/only-plants'><button className='projectBtn'>Deploy App</button></a>
+            <a target= '_blank' rel='noreferrer' projectBtn href= 'https://only-plants.herokuapp.com/'><button className='projectBtn'>View Source Code</button></a>
             </div>
                 </div>
                     </div>
