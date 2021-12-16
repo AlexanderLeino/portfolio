@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AlexanderLeino/portfolio/static/css/main.bd9dacfa.chunk.css",
+    "main.js": "/AlexanderLeino/portfolio/static/js/main.590bfdb1.chunk.js",
+    "main.js.map": "/AlexanderLeino/portfolio/static/js/main.590bfdb1.chunk.js.map",
+    "runtime-main.js": "/AlexanderLeino/portfolio/static/js/runtime-main.bff4458f.js",
+    "runtime-main.js.map": "/AlexanderLeino/portfolio/static/js/runtime-main.bff4458f.js.map",
+    "static/css/2.a75f5a2c.chunk.css": "/AlexanderLeino/portfolio/static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.a151783b.chunk.js": "/AlexanderLeino/portfolio/static/js/2.a151783b.chunk.js",
+    "static/js/2.a151783b.chunk.js.map": "/AlexanderLeino/portfolio/static/js/2.a151783b.chunk.js.map",
+    "static/js/3.dd7339dc.chunk.js": "/AlexanderLeino/portfolio/static/js/3.dd7339dc.chunk.js",
+    "static/js/3.dd7339dc.chunk.js.map": "/AlexanderLeino/portfolio/static/js/3.dd7339dc.chunk.js.map",
+    "index.html": "/AlexanderLeino/portfolio/index.html",
+    "static/css/2.a75f5a2c.chunk.css.map": "/AlexanderLeino/portfolio/static/css/2.a75f5a2c.chunk.css.map",
+    "static/css/main.bd9dacfa.chunk.css.map": "/AlexanderLeino/portfolio/static/css/main.bd9dacfa.chunk.css.map",
+    "static/js/2.a151783b.chunk.js.LICENSE.txt": "/AlexanderLeino/portfolio/static/js/2.a151783b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bff4458f.js",
+    "static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.a151783b.chunk.js",
+    "static/css/main.bd9dacfa.chunk.css",
+    "static/js/main.590bfdb1.chunk.js"
+  ]
+}
