@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import ProjectContainerCss from './ProjectContainer.css'
-
+import onlyPlantsPicture from '../../src/Assets/Only-plants.PNG'
+import blackJackPicture from '../../src/Assets/black-jack.PNG'
+import netflixAndGrillPic from '../../src/Assets/net-grill-screencap.png'
 
 const ProjectContainer = () => {
     return (
@@ -13,7 +15,7 @@ const ProjectContainer = () => {
         <div className= 'projectCard container d-flex'>
         <div className="row">
             <div className="col-lg-6">
-                <img src = '\Assets\net-grill-screencap.png' alt=''></img>
+                <img src = {netflixAndGrillPic} alt=''></img>
             </div>
             
             <div className="col-lg-6">
@@ -55,7 +57,7 @@ const ProjectContainer = () => {
     <div className= 'projectCard container d-flex'>
         <div className="row">
             <div className="col-lg-6">
-                <img src = '\Assets\black-jack.PNG' alt=''></img>
+                <img src = {blackJackPicture} alt=''></img>
             </div>
             
             <div className="col-lg-6">
@@ -64,19 +66,19 @@ const ProjectContainer = () => {
                 <div>Built With:<div>
                 </div>
     <div className="container-fluid d-flex justify-content-evenly">
-            <div col-lg-2>
+            <div>
                 <FontAwesomeIcon className = 'built-with-icon mt-3' icon={['fab', 'html5']} />
             </div>
 
-            <div col-lg-2>
+            <div>
                 <FontAwesomeIcon className = 'built-with-icon mt-3' icon={['fab', 'js-square']} />
             </div>
 
-            <div col-lg-2>
+            <div >
                 <FontAwesomeIcon className = 'built-with-icon mt-3' icon={['fab', 'css3-alt']} />
             </div>
 
-            <div col-lg-2>
+            <div>
                 <h6 className="word-logo">Bootstrap</h6>
             </div>
 
@@ -95,7 +97,7 @@ const ProjectContainer = () => {
                 <div className= 'projectCard container d-flex'>
         <div className="row">
             <div className="col-lg-6">
-                <img src = '\Assets\Only-plants.png' alt=''></img>
+                <img src = {onlyPlantsPicture} alt=''></img>
             </div>
             
             <div className="col-lg-6">
@@ -105,7 +107,7 @@ const ProjectContainer = () => {
                 </div>
     <div className="container-fluid d-flex flex-column justifty-content-space-evenly">
         
-        <div className="row">
+    
             <div className="container-fluid d-flex justify-content-evenly">
                 <div>
                     <FontAwesomeIcon className = 'built-with-icon mt-3' icon={['fab', 'html5']} />
@@ -120,7 +122,7 @@ const ProjectContainer = () => {
                 </div>
 
             </div>
-        </div>
+        
 
         <div className="row mt-4">
             <div className="container-fluid d-flex justify-content-evenly">

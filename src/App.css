@@ -91,12 +91,18 @@ img {
       text-align: center;
       
     }
+    
 }
-@media (max-width: 412px){
+
+@media (max-width: 576px){
   #profile-pic {
     margin-left: 6.5rem;
   }
+}
+@media (max-width: 412px){
+  
   #aboutMe-Paragraph {
     padding-left: 0;
   }
+
 }

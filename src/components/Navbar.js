@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from './Navbar.css'
+import resume from '../../src/Assets/Alexander-Leino-Resume-2021.pdf'
 
 const navBar = () => {
     return (
@@ -18,7 +19,7 @@ const navBar = () => {
             <a href="#contactMe"><button className='navButtons projectBtn'>Contact Me</button></a>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12">
-            <a href="../../Assets/Alexander-Leino-Resume-2021.pdf" target="_blank"><button className='navButtons projectBtn'>Resume</button></a>
+            <a href={resume} target="_blank"><button className='navButtons projectBtn'>Resume</button></a>
             </div>
           </div>
           </div>
