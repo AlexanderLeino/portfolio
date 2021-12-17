@@ -59,4 +59,8 @@
   .built-with-icon {
     transform: scale(3.5);
   }
+
+  .word-logo{
+    margin-left: .75rem;
+  }
   

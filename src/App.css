@@ -52,6 +52,10 @@ img {
   border-radius: 25px;
 }
 
+.built-with {
+  font-weight: bolder;
+}
+
 
 
 /* -------------------------------------------------MEDIA QUERIES BELOW----------------------------------------------------------------------------------- */
@@ -91,12 +95,16 @@ img {
       text-align: center;
       
     }
+    .horizontal-icons {
+      margin-left: 2rem;
+      margin: right 1rem;
+    }
     
 }
 
 @media (max-width: 576px){
   #profile-pic {
-    margin-left: 6.5rem;
+    margin-left: 5rem;
   }
 }
 @media (max-width: 412px){
