@@ -27,7 +27,7 @@ const Skills = () => {
                 </div>
         </div>
 
-        <div className= 'row mt-4'>
+    <div className= 'row mt-4'>
         <div className='col-lg-2 col-sm-6'>
             <h6 className='express-icon word-logo'>Express.js</h6>
         </div>

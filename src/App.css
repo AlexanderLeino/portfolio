@@ -106,6 +106,12 @@ img {
   #profile-pic {
     margin-left: 5rem;
   }
+  .horizontal-icons{
+    padding: .1rem;
+  }
+  .word-logo {
+    font-size: 1.25rem;
+  }
 }
 @media (max-width: 412px){
   

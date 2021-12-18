@@ -50,4 +50,5 @@ li, .accolades {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bolder;
+    width: min-content;
   }

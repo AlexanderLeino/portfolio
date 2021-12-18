@@ -80,6 +80,7 @@ const ProjectContainer = () => {
                 <div>
                     <h6 className="word-logo">Bootstrap</h6>
                 </div>
+                
 
             </div>
         </div>
@@ -109,15 +110,15 @@ const ProjectContainer = () => {
         <div className="container-fluid d-flex justify-content-evenly">
             <div className="row">
                 <div>
-                    <FontAwesomeIcon className = 'built-with-icon mt-3' icon={['fab', 'html5']} />
+                    <FontAwesomeIcon className = 'built-with-icon horizontal-icons mt-3' icon={['fab', 'html5']} />
                 </div>
 
                 <div>
-                    <FontAwesomeIcon className = 'built-with-icon mt-3 onlyplants-icon mt-5' icon={['fab', 'js-square']} />
+                    <FontAwesomeIcon className = 'built-with-icon mt-3 horizontal-icons mt-5' icon={['fab', 'js-square']} />
                 </div>
 
                 <div >
-                    <FontAwesomeIcon className = 'built-with-icon mt-3 onlyplants-icon mt-5' icon={['fab', 'css3-alt']} />
+                    <FontAwesomeIcon className = 'built-with-icon mt-3 horizontal-icons mt-5' icon={['fab', 'css3-alt']} />
                 </div>
 
             </div>
@@ -134,6 +135,10 @@ const ProjectContainer = () => {
                <div className="word-logo">
                    Express
                </div>
+
+               <div>
+                    <h6 className="word-logo">Handlebars</h6>
+                </div>
 
             </div>
     
