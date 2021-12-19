@@ -149,8 +149,8 @@ const ProjectContainer = () => {
             </div>
         </div>
                 <div className="row mt-4">
-                <a target= '_blank' rel='noreferrer' projectBtn href= 'https://alexanderleino.github.io/blackjack-game/'><button className='projectBtn'>Deploy App</button></a>
-                <a target= '_blank' rel='noreferrer' projectBtn href= 'https://github.com/AlexanderLeino/blackjack-game'><button className='projectBtn'>View Source Code</button></a>
+                <a target= '_blank' rel='noreferrer' projectBtn href= 'https://only-plants.herokuapp.com/'><button className='projectBtn'>Deploy App</button></a>
+                <a target= '_blank' rel='noreferrer' projectBtn href= 'hhttps://github.com/sarahmaskill/only-plants'><button className='projectBtn'>View Source Code</button></a>
                 </div>
                     </div>
                         </div>
